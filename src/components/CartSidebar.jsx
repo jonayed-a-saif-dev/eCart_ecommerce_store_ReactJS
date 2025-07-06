@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import CartItem from './CartItem'; 
 import { clearCart } from '../store/cartSlice';
 
+//function
 function CartSidebar({isOpen, onClose}) {
 
   const dispatch = useDispatch();
